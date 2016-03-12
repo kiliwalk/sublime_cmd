@@ -19,7 +19,7 @@ class ConEmuOpenCommand():
         return (project_name, project_dir, has_project)
 
     def open_conemu(self, dirname, title):
-        command= "start conemu.exe /Single /Dir "+dirname+" /cmdlist cmd -new_console:t:\""+title+"\""
+        command= "start conemu.exe /Single /Dir "+dirname+" # /cmdlist cmd -new_console:t:\""+title+"\""
         os.system(command)
         
 # open project folder
