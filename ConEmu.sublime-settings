@@ -1,0 +1,19 @@
+{
+	// Select ConEmu mode.
+	// Expected values — cmd, far, powershell, custom.
+	// cmd by default.
+	// If custom, will run terminal from "custom_terminal" setting
+	// If non-expected value, will run default Windows console — cmd.exe.
+	// Example:
+	// "conemu_mode": "far"
+	"conemu_mode": "cmd",
+	// Custom terminal.
+	// Please, write name of CLI command your preferable terminal in lower case, not terminal name.
+	// See https://superuser.com/a/454381/572069 for details.
+	// powershell by default.
+	// Example:
+	// "custom_terminal": "powershell"
+	// Incorrect:
+	// "custom_terminal": "PowerShell"
+	"custom_terminal": "powershell"
+}
